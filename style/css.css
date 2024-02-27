@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body li {
+    list-style-type: none;
+}
+body a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+header nav {
+    height: 125px; 
+    background-color: #F6F7FF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 125px;
+}
+ 
+.div_nav {
+    display: flex;  
+    justify-content: space-between; 
+    margin: 0 auto;
+    max-width: 1645px;
+    width: 100%;
+    top: 50%;
+}
+.logo img {
+    width: 60px;
+}
+.logo p {
+    display: inline;
+    font-weight: bold;
+}
+header .nav {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    margin-left: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+header .nav_li {
+    text-align: center;
+}  
+header .nav a {
+    margin: 0 15px;
+}
+.empty {
+    max-width: 390px;
+    width: 100%;
+}
+main {
+    flex-grow: 1;
+}
+.registration {
+    right: 0;
+}
+.registration img {
+    width: 45px;
+}
+.li_registration {
+    display: inline;
+}
+#carouselExampleIndicators {
+    margin-bottom: 60px;
+}
+#carouselExampleIndicators img {
+    max-height: 800px;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.carousel-indicators {
+    border-radius: 50%;
+}
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    background-color: blue !important; 
+}
+.carousel-indicators .active {
+    background-color: blue; 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators .active:nth-child(2) {
+    background-color: white !important; 
+}
+.block_button {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.block_button h1 {
+    font-size: 60px;
+}
+.block_button p {
+    font-size: 20px;
+}
+.block_button button {
+    background: blue;
+    border: blue;
+    color: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.tabs {
+    background-color: #f6f7ff;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    height: 460px;
+}
+.tabs nav, .info1 {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+}
+.nav-tabs button {
+    max-width: 170px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-tabs img {
+    margin-right: 15px;
+}
+.info1 {
+    margin-top: 50px;
+    position: relative;
+}
+.text_info1, .p_info1, .img_info1 {
+    display: inline-block;
+}
+.text_info1 {
+    margin-left: 80px;
+    display: inline-block;
+}
+.h3_info1 {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.button_info1 button{
+    background: blue;
+    border: blue;
+    color: white;
+    max-width: 200px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.img_info1 img {
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+.block_credit {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.block_credit h2, .block_mup h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#dropdownMenuButton1 {
+    background: rgb(255, 255, 255);
+    color: black;
+    max-width: 600px;
+    width: 100%;
+}
+.dropdown-toggle::after {
+    margin-left: 23.255em;
+}
+.step2 {
+    margin: 18px 0;
+}
+.credit_one {
+    max-width: 780px;
+    display: inline-block;
+    position: relative;
+}
+.credit_one .dropdown-item {
+    padding: 0.25rem 14.7rem;
+}
+.one_p {
+    font-weight: bold;
+    font-size: 18px;
+}
+#dropdownMenuButton1 {
+    padding: 15px;
+}
+.form-label p {
+    color: rgb(145, 145, 145);
+}
+.label5, .label30 {
+    display: inline-block;
+}
+.label30 {
+    position: absolute;
+    right: 0;
+}
+.summ {
+    margin-bottom: 5px;
+}
+.form-range {
+    margin-top: 10px;
+}
+.all {
+    position: relative;
+}
+.all_two {
+    min-width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.two_right {
+    position: absolute;
+    left: 240px;
+}
+.credit_two {
+    display: inline-block;
+    background-color: #F6F7FF;
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    font-size: 18px;
+}
+.credit_two>div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    width: 100%;
+}
+.size {
+    font-size: 20px;
+}
+.credit_two div {
+    display: inline-block;
+}
+.credit_two button {
+    display: block;
+    background: blue;
+    border: blue;
+    color: white;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+}
+.block_mup {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.box {
+    background-color: #f6f7ff;
+    padding: 20px 0px;
+}
+.box p {
+    display: inline-block;
+}
+.check {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.check input, .check0 input {
+    margin-right: 10px;
+}
+.check p {
+    margin: 0 auto;
+}
+.block_mup img {
+    width: 100%;
+}
+footer {
+    background-color: #F6F7FF;
+    padding-top: 50px;
+}
+footer div.col {
+    height: 174px;
+}
+.footer_logo {
+    display: flex;
+    left: 0; 
+    margin-bottom: 20px;
+}
+.footer_logo img {
+    max-width: 50px;
+    display: inline-block;
+}
+.footer_logo p {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    font-size: 23px;
+}
+.footer_text {
+    text-align: justify;
+}
+.footer_two {
+    text-align: left;
+}
+.footer_two li {
+    margin: 15px 0;
+}
+.footer_three, .footer_four, .footer_five {
+    text-align: left;
+    padding: 11px;
+}
+.footer_three img, .footer_three p, .footer_four p {
+    display: inline-block;
+}
+.footer_five img {
+    max-width: 30px;
+}
+.color_grey {
+    color: #6f6f6f;
+}
+.bold {
+    font-weight: bold;
+}
+.footer_five_img {
+    display: inline-block;
+} 
+@media (max-width: 1456px){
+    .empty {
+        display: none;
+    }
+}
